@@ -6,7 +6,7 @@ else
 endif
 
 display-hals := libgralloc libcopybit libmemtrack libqservice libqdutils
-display-hals += hdmi_cec
+display-hals += hdmi_cec include
 
 ifneq ($(TARGET_PROVIDES_LIBLIGHT),true)
     display-hals += liblight
